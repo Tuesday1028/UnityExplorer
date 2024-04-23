@@ -4,12 +4,15 @@ using BepInEx.Logging;
 using HarmonyLib;
 using UnityExplorer.Config;
 using UnityExplorer.Loader.BIE;
+using TheArchive;
+
 #if CPP
 using BepInEx.Unity.IL2CPP;
 #endif
 
 namespace UnityExplorer
 {
+    [BepInDependency(ArchiveMod.GUID, BepInDependency.DependencyFlags.SoftDependency)]
     [BepInPlugin(ExplorerCore.GUID, "UnityExplorer", ExplorerCore.VERSION)]
 
     public class ExplorerBepInPlugin :

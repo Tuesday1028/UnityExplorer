@@ -256,4 +256,9 @@
             <Private>False</Private>
         </Reference>
     </ItemGroup>
+    <ItemGroup>
+      <Reference Include="TheArchive.Core">
+        <HintPath>..\..\GTFO_TheArchive\TheArchive.Core\bin\R_BIE\TheArchive.Core.dll</HintPath>
+      </Reference>
+    </ItemGroup>
 </Project>
