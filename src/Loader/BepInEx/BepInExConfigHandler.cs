@@ -1,4 +1,5 @@
-﻿#if BIE
+﻿#if false
+#if BIE
 using BepInEx.Configuration;
 using UnityExplorer.Config;
 
@@ -62,4 +63,5 @@ namespace UnityExplorer.Loader.BIE
     }
 }
 
+#endif
 #endif

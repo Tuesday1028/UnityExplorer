@@ -1,4 +1,5 @@
-﻿#if BIE
+﻿#if false
+#if BIE
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
@@ -71,4 +72,5 @@ namespace UnityExplorer
 #endif
     }
 }
+#endif
 #endif
